@@ -1,0 +1,47 @@
+# Файл .htaccess
+# Этот файл содержит директивы Web-сервера Apache, которые позволят
+# использовать Intellect Board более эффективно
+# В зависимости от настроек хостинга часть директив может не работать,
+# что будет приводить к ошибке 500.
+# В этом случае рекомендуем закомментировать все строки,
+# убедиться в работоспособности форума, после чего начать раскомментировать
+# строки поштучно.
+# Комментарием являются строки начинающиеся с символа #
+# Для того, чтобы использовать этот файл, переименуйте его в .htaccess и положите в корень форума
+
+# Эти строки задают поле Expires в ответе сервера
+# Это поле необходимо для того, чтобы обеспечить кеширование в броузере файлов заданных типов (GIF, JPG, PNG, JavaScript, CSS)
+# Внимание: многие конфигурации сервера эту опцию не поддерживают!
+
+#ExpiresByType image/gif "modification plus 360 days"
+#ExpiresByType image/jpeg "modification plus 360 days"
+#ExpiresByType image/png "modification plus 360 days"
+#ExpiresByType application/x-javascript "modification plus 360 days"
+#ExpiresByType text/javascript "modification plus 360 days"
+#ExpiresByType text/css "modification plus 360 days"
+
+# Включение передачи сессий через URL
+# Данная опция может потребоваться для корректной работы в броузерах с выключенными cookies. Начиная с версии 2.19, эту версию можно держать постоянно включенной, если только в поискоивках форум не был прописан с длинными URL
+php_value session.use_trans_sid "1"
+# Разделитель параметров в URL (нужен для соответствия стандарту HTML 4.01)
+php_value arg_separator.output "&amp;"
+
+# Отключение не нужной скрипту дополнительной обработки параметров HTTP-запроса (повышет производительность сервера)
+php_value magic_quotes_gpc "0"
+php_value register_globals "0"
+php_value register_long_arrays "0"
+
+# Прописываем MIME-типы, необходимые для корректной работы IRC-чата
+AddType application/vnd.ms-cab-compressed .cab
+AddType application/java-archive .jar
+
+# Включение RewiteEngine для поддержки Humar Readable URLs
+# Необходимо наличие модуля mod_rewrite на сервере
+# В RewriteBase и RewriteRule возможно, потребуется подставить относительно форума
+#RewriteEngine On
+#RewriteBase /
+#RewriteRule (favicon\.ico)$ favicon.ico [L]
+#RewriteRule (robots\.txt)$ robots.txt [L]
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*) index.php [L,QSA]

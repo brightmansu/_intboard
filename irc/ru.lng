@@ -1,0 +1,92 @@
+#
+#         This java file is a part of the
+#
+#          -  Plouf's Java IRC Client  -
+#
+#      Copyright (C) 2002 Philippe Detournay
+#
+#   This file is licensed under the GPL license
+#
+#        All contacts : theplouf@yahoo.com
+#
+#
+#  Syntax :
+#    Comments begin with the # character. This character must be the first character of the line.
+#    A data line has three parts : the data id, the data id description, the data string.
+#      - Data id : An hexadecimal figure identifying the string.
+#      - Data description : Begins by [ and ends by ]. The description is not parsed and
+#                           can be any string.
+#      - Data string : The string itself. Parameters are specified using the %i syntax.
+#
+#  Trailing spaces can be added using the \s escape character.
+#
+#  Translated to Russian by XXXX Pro for Intellect Board Project
+
+0001 [INTERPRETOR_NOT_ON_CHANNEL] Вы не находитесь на канале
+0002 [INTERPRETOR_UNKNOWN_DCC] %1 : неизвестная команда DCC
+0003 [INTERPRETOR_INSUFFICIENT_PARAMETERS] недостаточно параметров для команды %1
+0004 [INTERPRETOR_BAD_CONTEXT] %1 : невозможно выполнить в заданном контексте
+0005 [INTERPRETOR_CANNOT_CTCP_IN_DCCCHAT] Невозможно отправить CTCP-код через DCC-чат
+0006 [INTERPRETOR_UNKNOWN_CONFIG] %1 : неизвестная конфигурационная команда
+0007 [INTERPRETOR_TIMESTAMP_ON] Метки времени включены
+0008 [INTERPRETOR_TIMESTAMP_OFF] Метки времени выключены
+0009 [INTERPRETOR_SMILEYS_ON] Графические смайлики включены
+000a [INTERPRETOR_SMILEYS_OFF] Графические смайлики выключены
+000b [INTERPRETOR_IGNORE_ON] Пользователь %1 будет игнорироваться
+000c [INTERPRETOR_IGNORE_OFF] Пользователь %1 больше не игнорируется
+000d [INTERPRETOR_MULTISERVER_DISABLED] Поддержка множества серверов включена
+  
+0101 [DCC_WAITING_INCOMING] Ожидание входящего соединения...
+0102 [DCC_UNABLE_TO_OPEN_CONNECTION] Не удается соединиться с %1
+0103 [DCC_CONNECTION_ESTABLISHED] DCC-соединение установлено
+0104 [DCC_CONNECTION_CLOSED] Соединение разорвано
+0105 [DCC_ERROR] Ошибка : %1
+0106 [DCC_UNABLE_TO_SEND_TO] %1 : не удается отправить %2
+0107 [DCC_BAD_CONTEXT] Невозможно выполнить команду в заданном контексте
+0108 [DCC_NOT_CONNECTED] Соединение не установлено
+0109 [DCC_UNABLE_PASSIVE_MODE] Не удается инициализировать пассивный режим
+010a [CTCP_PING_REPLY] [%1 ответ на PING] : %2 секунд(ы)
+010b [DCC_STREAM_CLOSED] Соединение закрыто
+      
+0201 [IDENT_FAILED_LAUNCH] Не удается создать Ident-сервер : %1
+0202 [IDENT_REQUEST] Ident-запрос от %1
+0203 [IDENT_ERROR] Произошла ошибка
+0204 [IDENT_REPLIED] Отправлен ответ %1
+0205 [IDENT_DEFAULT_USER] пользователь по умолчанию
+0206 [IDENT_NO_USER] Пользователя, для которого предназначен запрос, не существует
+0207 [IDENT_RUNNING_ON_PORT] Ident-сервер запущен на порту %1
+0208 [IDENT_LEAVING] Ident-сервер завершает работу : %1
+0209 [IDENT_NONE] нет
+020a [IDENT_UNKNOWN] неизвестно
+020b [IDENT_UNDEFINED] Неопределенный результат
+      
+0301 [FILE_SAVEAS] Сохранить файл как
+      
+0401 [ABOUT_ABOUT] О программе
+0402 [ABOUT_PROGRAMMING] Программирование
+0403 [ABOUT_DESIGN] Дизайн
+0404 [ABOUT_THANKS] Благодарности
+0405 [ABOUT_SUPPORT] за поддержку, идеи и тестрование
+0406 [ABOUT_GPL] Данное программное обеспечение распространяется в соответствии с GPL-лицензией
+      
+0501 [SERVER_UNABLE_TO_CONNECT] Не удается подключиться к %1
+0502 [SERVER_UNABLE_TO_CONNECT_STILL] Не удается подключиться к %1 : будет предпринята попытка подключиться к %2
+0503 [SERVER_DISCONNECTING] Разрыв соединения с %1
+0504 [SERVER_CONNECTING] Установка соединения...
+0505 [SERVER_NOT_CONNECTED] Соединение не установлено
+0506 [SERVER_LOGIN] Авторизация на сервере...
+0507 [SERVER_DISCONNECTED] Соединение с %1 разорвано
+0508 [SERVER_ERROR] Ошибка : %1
+     
+      
+071a [GUI_CHANGE_NICK] Изменить именя на
+071b [GUI_COPY_WINDOW] Копировать текст
+
+0801 [ASL_MALE] Муж., %1 лет, %2
+0802 [ASL_FEMALE] Жен., %1 лет, %2
+0803 [ASL_UNKNOWN] %1 лет, %2
+
+0901 [REPLY_IDLE] %1 не совершал никаких действий в течение %2
+0902 [REPLY_SIGNON] %1 установил соединение в %2
+
+ffff [ERROR_NOT_DEFINED] Неопределенная строка

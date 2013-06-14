@@ -1,0 +1,155 @@
+<?
+define("MSG_user_timezone","<option value=\"-43200\">GMT -12</option><option value=\"-39600\">GMT -11</option><option value=\"-36000\">GMT - 10</option><option value=\"-32400\">GMT - 9</option><option value=\"-28800\">GMT - 8</option><option value=\"-25200\">GMT - 7</option><option value=\"-21600\">GMT - 6</option><option value=\"-18000\">GMT - 5</option><option value=\"-14400\">GMT - 4</option><option value=\"-12600\">GMT - 3:30</option><option value=\"-10800\">GMT - 3</option><option value=\"-7200\">GMT - 2</option><option value=\"-3600\">GMT - 1</option><option value=\"0\">GMT (время по Гринвичу)</option><option value=\"3600\">GMT + 1</option><option value=\"7200\">GMT + 2</option><option value=\"10800\">GMT + 3 (московское время)</option><option value=\"12600\">GMT + 3:30</option><option value=\"14400\">GMT + 4 (летнее московское время)</option><option value=\"16200\">GMT + 4:30</option><option value=\"18000\">GMT + 5</option><option value=\"19800\">GMT + 5:30</option><option value=\"21600\">GMT + 6</option><option value=\"23400\">GMT + 6:30</option><option value=\"25200\">GMT + 7</option><option value=\"28800\">GMT + 8</option><option value=\"32400\">GMT + 9</option><option value=\"34200\">GMT + 9:30</option><option value=\"36000\">GMT + 10</option><option value=\"39600\">GMT + 11</option><option value=\"43200\">GMT + 12</option>");
+define("MSG_bt_added","Новый тип баннеров создан");
+define("MSG_ban_typelist","Перейти к типам баннеров");
+define("MSG_bt_typesaved","Тип баннеров сохранен");
+define("MSG_bn_deletetype","Удалить тип баннеров");
+define("MSG_bt_deleted","Тип баннеров удален");
+define("MSG_ban_added","Баннер успешно добавлен");
+define("MSG_ban_banlist","Перейти к списку баннеров");
+define("MSG_ban_saved","Баннер успешно сохранен");
+define("MSG_ban_delete","Удалить баннер");
+define("MSG_ban_deleted","Баннер удален");
+define("MSG_ban_typecreate","Создание нового типа баннеров");
+define("MSG_bt_edit","Редактирование типа баннеров");
+define("MSG_ban_create","Создание нового баннера");
+define("MSG_ban_types","Типы баннеров");
+define("MSG_ban_template","Чтобы баннеры показывались на форуме, необходимо вставить в его шаблон строку вида banner(номер типа)");
+define("MSG_ban_type","Тип");
+define("MSG_ban_typedescr","Описание");
+define("MSG_ban_typeviews","Просмотры");
+define("MSG_ban_typeaction","Действия");
+define("MSG_ban_typeid","Номер типа (от 1 до 65535)");
+define("MSG_ban_typedescr","Описание типа");
+define("MSG_ban_typeprefix","Префикс баннеров");
+define("MSG_ban_typeprefixdescr","Префикс добавляется в начало любого баннера данного типа. Его можно использовать, например, для того, чтобы задать внешний вид баннера");
+define("MSG_ban_typepostfix","Окончание баннера");
+define("MSG_ban_list","Список баннеров, имеющих тип");
+define("MSG_ban_id","Номер");
+define("MSG_ban_descr","Описание");
+define("MSG_ban_views","Просмотры");
+define("MSG_ban_actions","Действия");
+define("MSG_ban_descr","Описание баннера");
+define("MSG_ban_text","Текст баннера");
+define("MSG_ban_target","Настройки временного таргетинга");
+define("MSG_ban_forums","Настройки таргетинга по разделам");
+define("MSG_ban_time","Время");
+define("MSG_cat_banners","Баннеры");
+define("MSG_ad_banners","Настройка баннеров");
+define("MSG_ban_notypes","Не создан ни один тип баннеров");
+define("MSG_ban_mainpage","На главной странице");
+define("MSG_ban_edit","Редактирование баннера");
+define("MSG_ban_return","Вернуться к списку баннеров");
+define("MSG_e_bt_nodescr","Описание типа баннеров не может быть пустым");
+define("MSG_e_ban_nodescr","Описание баннера не может быть пустым");
+define("MSG_e_ban_nocode","Код баннера не может быть пустым");
+define("MSG_bt_return","Вернуться к списку типов баннеров");
+
+define("MSG_imt","ТИМ");
+define("MSG_imt1","Тип информационного метаболизма");
+define("MSG_imt_stats","Статистика по ТИМам");
+define("MSG_imt_untyped","не определились со своим ТИМом");
+define("MSG_imt_all","Любой");
+
+define("MSG_imt1_","Не типирован");
+define("MSG_imt1_0","Не типирован");
+define("MSG_imt1_1","ИЛЭ (\"Дон Кихот\")");
+define("MSG_imt1_2","СЭИ (\"Дюма\")");
+define("MSG_imt1_3","ЭСЭ (\"Гюго\")");
+define("MSG_imt1_4","ЛИИ (\"Робеспьер\")");
+define("MSG_imt1_6","ЛСИ (\"Максим Горький\")");
+define("MSG_imt1_5","ЭИЭ (\"Гамлет\")");
+define("MSG_imt1_7","СЛЭ (\"Жуков\")");
+define("MSG_imt1_8","ИЭИ (\"Есенин\")");
+define("MSG_imt1_9","СЭЭ (\"Наполеон\")");
+define("MSG_imt1_10","ИЛИ (\"Бальзак\")");
+define("MSG_imt1_11","ЛИЭ (\"Джек Лондон\")");
+define("MSG_imt1_12","ЭСИ (\"Драйзер\")");
+define("MSG_imt1_13","ЛСЭ (\"Штирлиц\")");
+define("MSG_imt1_14","ЭИИ (\"Достоевский\")");
+define("MSG_imt1_15","ИЭЭ (\"Гексли\")");
+define("MSG_imt1_16","СЛИ (\"Габен\")");
+
+define("MSG_imt2_","нет");
+define("MSG_imt2_0","нет");
+define("MSG_imt2_1","ИЛЭ");
+define("MSG_imt2_2","СЭИ");
+define("MSG_imt2_3","ЭСЭ");
+define("MSG_imt2_4","ЛИИ");
+define("MSG_imt2_6","ЛСИ");
+define("MSG_imt2_5","ЭИЭ");
+define("MSG_imt2_7","СЛЭ");
+define("MSG_imt2_8","ИЭИ");
+define("MSG_imt2_9","СЭЭ");
+define("MSG_imt2_10","ИЛИ");
+define("MSG_imt2_11","ЛИЭ");
+define("MSG_imt2_12","ЭСИ");
+define("MSG_imt2_13","ЛСЭ");
+define("MSG_imt2_14","ЭИИ");
+define("MSG_imt2_15","ИЭЭ");
+define("MSG_imt2_16","СЛИ");
+
+define("MSG_quad_alpha","Альфа");
+define("MSG_quad_beta","Бета");
+define("MSG_quad_gamma","Гамма");
+define("MSG_quad_delta","Дельта");
+
+define("MSG_rel","ваши отношения");
+define("MSG_rel_0","тождество");
+define("MSG_rel_1","дуальные");
+define("MSG_rel_2","активация");
+define("MSG_rel_3","зеркальные");
+
+define("MSG_rel_4","соц. заказ (вы &mdash; заказчик)");
+define("MSG_rel_5","ревизия (вы &mdash; ревизор)");
+define("MSG_rel_6","деловые");
+define("MSG_rel_7","миражные");
+
+define("MSG_rel_8","суперэго");
+define("MSG_rel_9","полная противоположность");
+define("MSG_rel_10","квазитождество");
+define("MSG_rel_11","конфликтные");
+
+define("MSG_rel_12","соц. заказ (вы &mdash; подзаказный)");
+define("MSG_rel_13","ревизия (вы &mdash; подревизный)");
+define("MSG_rel_14","родственнные");
+define("MSG_rel_15","полудуальные");
+
+define("MSG_imt_already_typed","У вас уже есть одна типировочная тема. Продолжайте писать в нее!");
+define("MSG_tp_imttyping","Типировочный форум");
+define("MSG_u_typetopic","Типировочная тема");
+
+
+define("MSG_pyt","ПЙ-тип");
+define("MSG_pyt1","Тип в психософии (психе-йоге)");
+define("MSG_pyt_stats","Статистика по ПЙ-типам");
+define("MSG_pyt_untyped","не определились со своим ПЙ-типом");
+define("MSG_pyt_all","Любой");
+
+define("MSG_pyt1_","Не типирован");
+define("MSG_pyt1_0","Не типирован");
+define("MSG_pyt1_1","ВЛЭФ");
+define("MSG_pyt1_2","ВЛФЭ");
+define("MSG_pyt1_3","ВЭЛФ");
+define("MSG_pyt1_4","ВЭФЛ");
+define("MSG_pyt1_6","ВФЭЛ");
+define("MSG_pyt1_5","ВФЛЭ");
+define("MSG_pyt1_7","ЛВЭФ");
+define("MSG_pyt1_8","ЛВФЭ");
+define("MSG_pyt1_9","ЛЭВФ");
+define("MSG_pyt1_10","ЛЭФВ");
+define("MSG_pyt1_11","ЛФВЭ");
+define("MSG_pyt1_12","ЛФЭВ");
+define("MSG_pyt1_13","ЭВЛФ");
+define("MSG_pyt1_14","ЭВФЛ");
+define("MSG_pyt1_15","ЭЛВФ");
+define("MSG_pyt1_16","ЭЛФВ");
+define("MSG_pyt1_17","ЭФВЛ");
+define("MSG_pyt1_18","ЭФЛВ");
+define("MSG_pyt1_19","ФВЛЭ");
+define("MSG_pyt1_20","ФВЭЛ");
+define("MSG_pyt1_21","ФЛВЭ");
+define("MSG_pyt1_22","ФВЭЛ");
+define("MSG_pyt1_23","ФЭВЛ");
+define("MSG_pyt1_24","ФЭЛВ");
+?>

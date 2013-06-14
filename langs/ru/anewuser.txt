@@ -1,0 +1,8 @@
+На форуме "$opt_title" зарегистрировался новый участник.
+
+Логин     :   $newname
+Пароль    :   $password
+E-mail    :   $email
+IP-адрес  :   $ip
+
+$activate

@@ -1,0 +1,6 @@
+<?
+load_style('common.php');
+if ($GLOBALS['action']=='do_print') print_template_head();
+call_user_func($action);
+if ($GLOBALS['action']=='do_print') print_template_end();
+?>

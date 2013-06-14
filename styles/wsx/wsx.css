@@ -1,0 +1,123 @@
+.title { background-color: #C0C0C0; border: 0px}
+
+body {background-color: white; margin: 0px; padding: 0px; }
+
+.announce { width: 100%; margin-bottom: 8px; background-color: #000066; }
+
+.innertable td { font-size: 12px; font-family: Arial; color: #000066; background-color: white; list-style-type: circle}
+
+tr.tablehead td, td.tablehead { font-size: 12px; font-weight: bold; color: #000066; background-color: #BFCCE5; padding-top: 4px; padding-bottom: 4px; font-family: Arial, Helvetica, sans-serif; text-align: center}
+
+td.category { font-size: 15px; font-family: "Times New Roman"; font-weight: bold; color: #000000; background-color: #C0C0C0; text-align: center; }
+
+td.forumentry { font-size: 12px; font-family: Arial; font-weight: normal; color: #000066; background-color: white; text-align: center; }
+
+.copyright { font-size: 9px; font-family: Arial; color: #000066; background-color: #C0C0C0; text-align: center; font-style: center }
+
+H1 { font-family: Arial; font-weight: bolder; color: gray; text-align: center; ; font-size: 20px; margin-top: 0px; margin-bottom: 0px}
+
+H2 { font-size: 14px; font-family: Arial; color: #E3FCF0; text-align: right; margin-bottom: 0px }
+
+H3 { font-size: 14px; font-family: Arial; text-align: left; margin-top: 0px; margin-bottom: 0px; font-weight : bold; color: #660000}
+
+H4 { font-size: 12px; font-family: Arial; color: #000066; text-align: left; margin-top: 2px; margin-bottom: 0px; font-weight : normal; padding-bottom: 0px }
+
+H5 { font-size: 14px; font-family: Arial; text-align: left; margin-top: 0px; margin-bottom: 0px; padding-top: 0px}
+
+H6 { font-size: 12px; font-family: Arial, Helvetica, sans-serif; font-weight: bolder; color: #003399; margin-top: 0px; margin-bottom: 0px; padding-top: 0px}
+
+.actions { font-size: 10px; font-family: Arial; font-weight: bold; text-align: left; list-style-type: circle;}
+
+.locations {text-align: left; border: 1px #000066 dotted; width: 100%; margin-bottom: 16px}
+
+.descr { font-size: 10px; font-family: Arial; color: #000033; }
+
+.username { font-weight: bolder; color: #CC1F1F; }
+
+.pages { font-weight: lighter; color: #000066; float: right }
+
+.sort { font-size: 10px; font-family: Arial; color: #000033; text-align: right; background-position: right;}
+
+.topicentry { font-size: 12px; font-family: Arial; font-weight: normal; color: #000066; background-color: white; text-align: center; }
+
+td.postentry { font-size: 12px; font-family: Verdana; color: #000066; background-color: #FFFFFF; vertical-align: top }
+
+td.postentry2 { font-size: 12px; font-family: Verdana; color: #000066; background-color: #EEEEEE; vertical-align: top }
+
+td.first { }
+
+.sign { font-size: 10px; font-family: Verdana; color: #404040;}
+
+.modcomment { font-size: 10px; color: #E00000; }
+
+.modlinks { font-size: 9px; font-family: Arial; color: #000066; text-align: right; border: #000033; border-style: dotted; border: 1px #003399 dotted; }
+
+blockquote {  font-size: 10px; font-weight: lighter; margin: 5px 0px 10px 20px; padding: 5px; border: #003399 1px dotted; border-left: #003399 4px solid; background: #E0E0E0; }
+
+.usertable {  background-color: white; border: 1px #003399; font-family: Arial, Helvetica, sans-serif; font-size: 12px}
+
+.offtopic {  font-size: 10px; color: #333333; text-align: left}
+
+code { display: block;  font-family: "Courier New", Courier, mono; font-size: 11px; text-align: left; color: #000000; margin-left: 20px; border: #000066 3px solid }
+
+.leftcolumn { width: 152px; background-color:  #C0C0C0; vertical-align: top }
+
+.menuentry { COLOR: #000066; FONT-FAMILY: Geneva, Arial, Helvetica, san-serif; FONT-SIZE: 12px; FONT-STYLE: normal; FONT-WEIGHT: normal; LINE-HEIGHT: normal; TEXT-INDENT: 0pt; paragraph-height: 80%; background-color:  #FFFFFF}
+
+.menucat { font-family: Arial, Helvetica, sans-serif; font-size: 12px; text-align: left; vertical-align: text-top; padding-top: 2px; padding-left: 24px;color: #000066; filter: Glow(Color=#FFFFFF, Strength=2); overflow: hidden; white-space: nowrap; background: url("menuhead.gif"); height: 35px; vertical-align: top }
+
+.outertable {  background-color: white; border: #000 1px solid; table-layout: fixed }
+
+.innertable {  background-color: #003399; border: 1px #003399 solid; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px }
+
+.maintext { font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000033}
+
+.hligh { font-weight: bold; color: #CC9933}
+
+.postlinks { border-bottom:#93ADCA 1px solid; padding-bottom: 3px; margin-bottom: 3px; margin-right: 4px }
+
+.postlinks2 { float: right; position: relative; margin-bottom: -1.6em; top: -1.6em; margin-right: 5px }
+
+.moderate { font-size: 9px; float: right }
+
+.online { font-weight: bold; font-size: 12px }
+
+.mn { height: 12px; background: url("m_n.gif"); }
+
+.mf { background: url("m_f.gif"); }
+
+.posttable { border-collapse: separate; width: 100%; border: #003399 2px solid; table-layout: fixed; background-color: #003399; border-spacing: 1px }
+
+a.newpm, a.newpm:visited { text-decoration: blink; color: #000000; font-weight: bold }
+
+a.inverse:link { color: #331111; text-decoration: none; }
+a.inverse:visited { color: #331111; text-decoration: none; }
+a.inverse:active { color: #331111;  text-decoration: none; }
+a.inverse:hover { color:#442222; text-decoration: none;  }
+
+a:link { color: #cc0000; text-decoration: none; }
+a:visited { color: #cc0000; text-decoration: none; }
+a:active { color: #FFCC00;  text-decoration: none; }
+a:hover { color:#FF4455; text-decoration: underline;  }
+
+a.username:link { font-weight: bolder; color: #E52E2E; text-decoration: none; }
+a.username:visited { font-weight: bolder; color: #CD2222; text-decoration: none; }
+a.username:active { font-weight: bolder; color: #CD2222;  text-decoration: none; }
+a.username:hover { font-weight: bolder; color: #CD4444; text-decoration: underline;  }
+
+textarea { font-size: 12px; font-family: arial, verdana, geneva, helvetica, sans-serif; border: #C0C0C0 1px solid; background-color: #FFFFFF; color: #000066; width:98%}
+select { font-size: 10px; font-family: arial, verdana, geneva, helvetica, sans-serif; border: #C0C0C0 1px solid; background-color: #FFFFFF; color: #000066 }
+input { font-family: arial, verdana, geneva, helvetica, sans-serif; font-size: 12px; border: #C0C0C0 1px solid; background-color: #FFFFFF; color: #000066}
+option { font-size: 10px; font-family: arial, verdana, geneva, helvetica, sans-serif; border: #C0C0C0 1px solid; background-color: #FFFFFF; color: #000066}
+
+.photo_nav { overflow: auto; padding: 5px; vertical-align: center; text-align:center; white-space: nowrap; width: 96% }
+.nav1 {  float: left; margin-right: 5px; margin-top: 2px }
+.nav2 {  float: left; margin-right: 5px; border: #C00 2px solid }
+.nav3 { float: left; margin-right: 5px; margin-top: 2px }
+
+.calendar_hday { color: #800 }
+a.calendar_hday { color: #C00 }
+a.calendar_hday:visited { color: #A00 }
+a.calendar { color: #1E90FF }
+a.calendar:visited { #1280EE }
+
