@@ -1,7 +1,0 @@
-Yandex|Yandex|0
-Rambler|StackRambler|0
-MSN|msnbot|0
-Google|Googlebot|0
-Yahoo|Yahoo|0
-Aport|Aport|0
-WebAlta|WebAlta|0
